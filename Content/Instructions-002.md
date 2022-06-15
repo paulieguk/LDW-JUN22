@@ -1,3 +1,7 @@
+
+## Summary
+You will build an Azure Lab Profile with the abosolute minimumal settings
+
 From the Skillable Dashboard Create a new lab profile using the **+ Create Custom Environment** option from the Template Gallery.  When creating the new Lab Profile use the following information:
 
 **Basic Page**
@@ -21,7 +25,7 @@ From the Skillable Dashboard Create a new lab profile using the **+ Create Custo
 >[!Knowledge] This represents the minimum data that can be entered into an Azure Cloud Lab Profile.  Notice there was already a user selected with a prefix of **User1-**
 
 Save the Lab Profile.
-From the top of the LAb Profile click the **Favorite** star
+From the top of the Lab Profile click the **Favorite** star
 
 >[!Alert] If you have your own Azure Accounts you might get prompted to log in with those.  DO NOT.  Ensure you only log in with the provided credentials!
 
