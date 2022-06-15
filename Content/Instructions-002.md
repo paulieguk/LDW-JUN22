@@ -24,10 +24,10 @@ From the Skillable Dashboard Create a new lab profile using the **+ Create Custo
 
 Launch and enter the Lab, signing in with the credentials provided on the resource tab.
 
-Notice you cannot do anything, when you entered Azure showed an error. 
+Notice you cannot do anything, when you entered Azure might have displayed a subscription error. 
 If you navigate anywhere Azure just trys to get you to sign up for a trial.  
 
- - End the Lab
+ - End the Lab and make sure you close both Windows just leaving the orghinal **LDW-Jun22-001: 001 LDW - Azure Cloud** lab running and continue.
 
 This is the way CSS would be enabled and the User would have full access to the subscription.  But the subscription **Career RockIT (Skillable)** is 
 setup as shared and therefore is used for CSR.
