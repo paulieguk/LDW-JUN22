@@ -11,6 +11,6 @@ Please enter your initials here @lab.TextBox(initials)
  > 
  > Password: +++@lab.VirtualMachine(Windows10Base).Password+++
 
- --!>
+ -->
  
 Press **Next** to continue
