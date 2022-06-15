@@ -1,5 +1,5 @@
-# 001 - Welcome to the Lab Developer Workshop - Month YYYY
-## Workshop Title
+# 001 - Welcome to the Lab Developer Workshop - June 2022
+## Azure Cloud Slice Deep Dive
 
 ### Before you start
 
