@@ -45,4 +45,6 @@ Cancel the wizard with the **X** top right.
 
  - End the Lab and make sure you close both Windows just leaving the orghinal **LDW-Jun22-001: 001 LDW - Azure Cloud** lab running and continue.
 
+- [] This completes the activities for Lab 1 please let your instructor know that you have completed Lab 1
+
 Press **Next** to continue
