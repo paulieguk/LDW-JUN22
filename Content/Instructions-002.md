@@ -20,6 +20,9 @@ From the Skillable Dashboard Create a new lab profile using the **+ Create Custo
 
 >[!Knowledge] This represents the minimum data that can be entered into an Azure Cloud Lab Profile.  Notice there was already a user selected with a prefix of **User1-**
 
+Save the Lab Profile.
+From the top of the LAb Profile click the **Favorite** star
+
 >[!Alert] If you have your own Azure Accounts you might get prompted to log in with those.  DO NOT.  Ensure you only log in with the provided credentials!
 
 Launch and enter the Lab, signing in with the credentials provided on the resource tab.
