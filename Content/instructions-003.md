@@ -1,6 +1,9 @@
-From the Skillable Dashboard Create a new lab profile using the **+ Create Custom Environment** option from the Template Gallery.  When creating the new Lab Profile use the following information:
+## Summary
+So in this exercise you will add some more settings to enable CSR and test that security.
 
-**Basic Page**
+From the LOD Dashboard select the Lab Profile ++@lab.Variable(initials)-BasicAzure++ and edit that profile.
+
+On the **Cloud page** make the following changes.
 
 |||
 |---------------|--------------------------|
