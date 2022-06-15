@@ -1,3 +1,3 @@
-# Lab Developer Workshop - Month YYYY
+# Lab Developer Workshop - June 2022
 
-Summary of this workshop
+This workshop was to provide a Deep Dive into the creation of using the Skillable platform for build Azure Based Labs....
