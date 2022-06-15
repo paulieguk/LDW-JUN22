@@ -24,7 +24,7 @@ From the Skillable Dashboard Create a new lab profile using the **+ Create Custo
 
 Launch and enter the Lab, signing in with the credentials provided on the resource tab.
 
-Notice you cannot do anything, when you entered Azure showed an error. 
+Notice you cannot do anything, when you entered Azure it might have showed a subscription error. 
 If you navigate anywhere Azure just trys to get you to sign up for a trial.  
 
  - End the Lab
