@@ -5,36 +5,19 @@ From the LOD Dashboard select the Lab Profile ++@lab.Variable(initials)-BasicAzu
 
 On the **Cloud page** make the following changes.
 
-|||
-|---------------|--------------------------|
-| Number:       | ++001++                      |
-| Name:         | ++@lab.Variable(initials)-BasicAzure++ |
-| Organisation: | LDW-JUN22                |
-| Series:       | LDW-JUN22                |
-| Virtualization Platform: | None |
+In the Resorce Groups section Click **+ Add Resource Group**
+In the new box within the Permissions section click **+ Add Permission++
 
-**Cloud Page**
+Ensure **User1-** is listed with the Role **Owner**
 
-|||
-|---------------|--------------------------|
-| Cloud Platform:       | Azure                     |
-| Subscription Pool:    | Career RockIT (Skillable) |
-| Datacenter Availability | US East 2 |
+>[!KNOWLEDGE] LOD provides three levels of user access:
+>Reader - Can read all objects in a Resource Group but cannot modify
+>Contributor - Can Read, Create, Modify and Delete objects in a Resource Group
+>Owner - Can manage the security and access to the Resource Group
+>These groups are very similar to the standard groups but you will see them created as LODS-rolename
 
->[!Knowledge] This represents the minimum data that can be entered into an Azure Cloud Lab Profile.  Notice there was already a user selected with a prefix of **User1-**
-
->[!Alert] If you have your own Azure Accounts you might get prompted to log in with those.  DO NOT.  Ensure you only log in with the provided credentials!
+Save the Lab Profile
 
 Launch and enter the Lab, signing in with the credentials provided on the resource tab.
-
-Notice you cannot do anything, when you entered Azure it might have showed a subscription error. 
-If you navigate anywhere Azure just trys to get you to sign up for a trial.  
-
- - End the Lab
-
-This is the way CSS would be enabled and the User would have full access to the subscription.  But the subscription **Career RockIT (Skillable)** is 
-setup as shared and therefore is used for CSR.
-
-!IMAGE[Azure Subscription Pool](images/image01.jpg)
 
 Press **Next** to continue
