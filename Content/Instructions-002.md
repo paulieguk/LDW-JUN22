@@ -28,9 +28,7 @@ Notice you cannot do anything, when you entered the system errored and if you na
 This is the way CSS would be enabled and the User would have full access to the subscription.  But the subscription **Career RockIT (Skillable)** is 
 setup as shared and therefore is used for CSR.
 
-
-
-!IMAGE[Search Results](images/ak02lpo7.jpg)
+!IMAGE[Azure Subscription Pool](images/image01.jpg)
 
 1. [] Scroll down the details page and notice the information provided.  Especially focuses on the version list, we will use this later.
 
