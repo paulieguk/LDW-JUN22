@@ -6,6 +6,7 @@ As you saw in the previous exercise the unrestricted policy allowed any potentia
 
 - From within LOD ensure the @lab.Variable(initials)-AzureCloudLab, Lab Profile is being displayed.
 - Edit the Lab Profile and use the **SaveAs** function to save the new Lab Profile with a name of ++@lab.Variable(initials)-AzureStorageAccountLab++
+- Make this new Lab Profile a favorite so it is easy to find
 - Edit this new Lab Profile
 - On the **Cloud** page remove the old Access Control Policy and add the policy ++LOD Managed - Only Storage Accounts++
 - Save the Lab Profile
