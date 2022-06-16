@@ -9,7 +9,7 @@ From the Skillable Dashboard Create a new lab profile using the **+ Create Custo
 |||
 |---------------|--------------------------|
 | Number:       | ++001++                      |
-| Name:         | ++@lab.Variable(initials)-BasicAzure++ |
+| Name:         | ++@lab.Variable(initials)-AzureCloudLab++ |
 | Organisation: | LDW-JUN22                |
 | Series:       | LDW-JUN22                |
 | Virtualization Platform: | None |
