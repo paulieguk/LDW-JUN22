@@ -2,6 +2,8 @@
 
 During this Lab you will explore applying an Access Control Policy while developing the Azure Cloud lab.  This Policy would not allowed to be used in Production and would fail a security review, but ensures you can develope the Azure content before then updating the policy with an appropiate security Policy.
 
+[Skillable Cloud Security Standards Documenation](https://docs.skillable.com/lod/cloud-security/cloud-security-standards.md)
+
 - From within LOD ensure the @lab.Variable(initials)-AzureCloudLab, Lab Profile is being displayed.
 - Edit the Lab Profile.
 - On the **Cloud** page change the permission for User1- from Reader to Owner
