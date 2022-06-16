@@ -1,26 +1,21 @@
-#Applying a Developement Access Control Policy
-
 ##Summary
 
 During this Lab you will explore applying an Access Control Policy while developing the Azure Cloud lab.  This Policy would not allowed to be used in Production and would fail a security review, but ensures you can develope the Azure content before then updating the policy with an appropiate security Policy.
 
-From within LOD ensure the @lab.Variable(Initials)-AzureCloudLab, Lab Profile is being displayed.
-
-Edit the Lab Profile.
-
-On the **Cloud** page change the permission for User1- from Reader to Owner
+- From within LOD ensure the @lab.Variable(initials)-AzureCloudLab, Lab Profile is being displayed.
+- Edit the Lab Profile.
+- On the **Cloud** page change the permission for User1- from Reader to Owner
 
 >[!TIP] As we know from before this cannot be saved without an Access Control Policy being applied.
 
-In the Access Control Policy section click **+ Add Policy**
-Press the Search button and select the **LOD Managed - Allow All (DEVELOPMENT ONLY - Azure)**
-Save the Lab Profile
-Launch the Lab Profile
+- In the Access Control Policy section click **+ Add Policy**
+- Press the Search button and select the **LOD Managed - Allow All (DEVELOPMENT ONLY - Azure)**
+- Save the Lab Profile
+- Launch the Lab Profile
+- Navigate into your Resource Group **@lab.CloudResourceGroup(ResourceGroup1).Name**
+- Using the **Access Control** menu review the users permissions and see the user now has Owner permissions
 
-Navigate into your Resource Group **@lab.CloudResourceGroup(ResourceGroup1).Name**
-Using the **Access Control** menu review the users permissions and see the user now has Owner permissions
-
->[!Tips] <summary>
+>[!TIP] <summary>
   Need help on above
   </summary>
   <details>
@@ -40,6 +35,7 @@ Click the Resource Group to enter it and on the left hand menu select Access Con
 |---------------|--------------------------|
 | Storage Account Name       | ++sa-@lab.LabInstanceId++                      |
 
+
 - Press **Review and Create**, Followed by **Create**
 
 >[!Knowledge] This will provbision the resource group within a few seconds.  This is allowed because of the Allow All ACP.  You could provision any other resource you would like.  Wheras this provides a great sandbox and test platform costs can quickly run out of control.
@@ -51,6 +47,7 @@ Click the Resource Group to enter it and on the left hand menu select Access Con
 - Create a Web App using the Quick Create function used above
 
 You will need the following values:
+
 
  |||
 |---------------|--------------------------|
@@ -65,4 +62,4 @@ You will need the following values:
 
 - Paste the URL into you local browser and the IMAGE[default home page](images/image04.jpg) should appear 
 
-- End the @lab.Variable(Initials)-AzureCloudLab Lab.
+- End the @lab.Variable(initials)-AzureCloudLab Lab.
