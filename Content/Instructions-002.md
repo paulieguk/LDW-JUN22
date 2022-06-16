@@ -2,7 +2,7 @@
 ## Summary
 You will build an Azure Lab Profile with the abosolute minimumal settings
 
-From the Skillable Dashboard Create a new lab profile using the **+ Create Custom Environment** option from the Template Gallery.  When creating the new Lab Profile use the following information:
+- From the Skillable Dashboard Create a new lab profile using the **+ Create Custom Environment** option from the Template Gallery.  When creating the new Lab Profile use the following information:
 
 **Basic Page**
 
@@ -24,19 +24,19 @@ From the Skillable Dashboard Create a new lab profile using the **+ Create Custo
 
 >[!Knowledge] This represents the minimum data that can be entered into an Azure Cloud Lab Profile.  Notice there was already a user selected with a prefix of **User1-**
 
-Save the Lab Profile.
-From the top of the Lab Profile click the **Favorite** star
+- Save the Lab Profile.
+- From the top of the Lab Profile click the **Favorite** star
 
 >[!Alert] If you have your own Azure Accounts you might get prompted to log in with those.  DO NOT.  Ensure you only log in with the provided credentials!
 
-Launch and enter the Lab, signing in with the credentials provided on the resource tab.
+ -Launch and enter the Lab, signing in with the credentials provided on the resource tab.
 
-Notice you cannot do anything, when you entered Azure might have displayed a subscription error. 
+>[!NOTE]Notice you cannot do anything even browsing is limited, when you entered Azure might have displayed a subscription error. 
 If you navigate anywhere Azure just trys to get you to sign up for a trial.  
 
  - End the Lab and make sure you close both Windows just leaving the orghinal **LDW-Jun22-001: 001 LDW - Azure Cloud** lab running and continue.
 
-This is the way CSS would be enabled and the User would have full access to the subscription.  But the subscription **Career RockIT (Skillable)** is 
+[!KNOWLEDGE]This is the way CSS would be enabled and the User would have full access to the subscription.  But the subscription **Career RockIT (Skillable)** is 
 setup as shared and therefore is used for CSR.
 
 !IMAGE[Azure Subscription Pool](images/image01.jpg)
