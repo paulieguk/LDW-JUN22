@@ -13,7 +13,7 @@ During this Lab you will explore applying an Access Control Policy while develop
 - In the Access Control Policy section click **+ Add Policy**
 - Press the Search button and select the **LOD Managed - Allow All (DEVELOPMENT ONLY - Azure)**
 
-    ```ACP-NoCopy
+    ```ACP
     {
     "if": {
         "not":{
