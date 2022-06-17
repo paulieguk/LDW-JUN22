@@ -4,8 +4,8 @@ As you saw in the previous exercise the unrestricted policy allowed any potentia
 
 ###Updating the Access Control Policy
 
-- From within LOD ensure the @lab.Variable(initials)-AzureCloudLab, Lab Profile is being displayed.
-- Edit the Lab Profile and use the **SaveAs** function to save the new Lab Profile with a name of ++@lab.Variable(initials)-AzureStorageAccountLab++
+- From within LOD ensure the AzureCloudLab, Lab Profile is being displayed.
+- Edit the Lab Profile and use the **SaveAs** function to save the new Lab Profile with a name of ++AzureStorageAccountLab++
 - Make this new Lab Profile a favorite so it is easy to find
 - Edit this new Lab Profile
 - On the **Cloud** page remove the old Access Control Policy and add the policy ++LOD Managed - Only Storage Accounts++
@@ -13,7 +13,7 @@ As you saw in the previous exercise the unrestricted policy allowed any potentia
 
 ###Testing the new Policy
 
-- Launch the Lab Profile @lab.Variable(initials)-AzureCloudLab
+- Launch the Lab Profile AzureStorageAccountLab
 - Navigate into your Resource Group **@lab.CloudResourceGroup(ResourceGroup1).Name**
 
 ### Lets provision a Storage Account
