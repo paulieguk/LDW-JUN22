@@ -9,6 +9,21 @@ As you saw in the previous exercise the unrestricted policy allowed any potentia
 - Make this new Lab Profile a favorite so it is easy to find
 - Edit this new Lab Profile
 - On the **Cloud** page remove the old Access Control Policy and add the policy ++LOD Managed - Only Storage Accounts++
+
+```ACP-nocopy
+{
+  "if": {
+     "not": {
+         "field": "type",
+         "equals": "Microsoft.Storage/storageAccounts"
+         }
+     },
+     "then": {
+         "effect": "deny"
+     }
+}
+```
+
 - Save the Lab Profile
 
 ###Testing the new Policy
