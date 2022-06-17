@@ -12,6 +12,21 @@ During this Lab you will explore applying an Access Control Policy while develop
 
 - In the Access Control Policy section click **+ Add Policy**
 - Press the Search button and select the **LOD Managed - Allow All (DEVELOPMENT ONLY - Azure)**
+
+    ```ACP-NoCopy
+    {
+    "if": {
+        "not":{
+            "field": "type",
+            "like": "Microsoft.*"
+            }
+        },
+        "then": {
+            "effect": "deny"
+        }
+    }
+    '''
+
 - Save the Lab Profile
 - Launch the Lab Profile
 - Navigate into your Resource Group **@lab.CloudResourceGroup(ResourceGroup1).Name**
