@@ -4,9 +4,9 @@ During this Lab you will explore applying an Access Control Policy while develop
 
 [Skillable Cloud Security Standards Documenation](https://docs.skillable.com/lod/cloud-security/cloud-security-standards.md)
 
-- From within LOD ensure the @lab.Variable(initials)-AzureCloudLab, Lab Profile is being displayed.
+- From within LOD ensure the AzureCloudLab, Lab Profile is being displayed.
 - Edit the Lab Profile.
-- On the **Cloud** page change the permission for User1- from Reader to Owner
+- On the **Cloud** page change the permission for User1- from Reader to Contributor.
 
 >[!TIP] As we know from before this cannot be saved without an Access Control Policy being applied.
 
@@ -64,4 +64,4 @@ You will need the following values:
 
 - Paste the URL into you local browser and the IMAGE[default home page](images/image04.jpg) should appear 
 
-- End the @lab.Variable(initials)-AzureCloudLab Lab.
+- End the AzureCloudLab Lab.
