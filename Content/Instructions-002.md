@@ -8,8 +8,8 @@ You will build an Azure Lab Profile with the abosolute minimumal settings
 
 |||
 |---------------|--------------------------|
-| Number:       | ++001++                      |
-| Name:         | ++@lab.Variable(initials)-AzureCloudLab++ |
+| Number:       | ++@lab.Variable(initials)++                      |
+| Name:         | ++AzureCloudLab++ |
 | Organisation: | LDW-JUN22                |
 | Series:       | LDW-JUN22                |
 | Virtualization Platform: | None |
@@ -29,14 +29,14 @@ You will build an Azure Lab Profile with the abosolute minimumal settings
 
 >[!Alert] If you have your own Azure Accounts you might get prompted to log in with those.  DO NOT.  Ensure you only log in with the provided credentials!
 
- -Launch and enter the Lab, signing in with the credentials provided on the resource tab.
+ - Launch and enter the Lab, signing in with the credentials provided on the resource tab.
 
 >[!NOTE]Notice you cannot do anything even browsing is limited, when you entered Azure might have displayed a subscription error. 
 If you navigate anywhere Azure just trys to get you to sign up for a trial.  
 
  - End the Lab and make sure you close both Windows just leaving the orghinal **LDW-Jun22-001: 001 LDW - Azure Cloud** lab running and continue.
 
-[!KNOWLEDGE]This is the way CSS would be enabled and the User would have full access to the subscription.  But the subscription **Career RockIT (Skillable)** is 
+>[!KNOWLEDGE] This is the way CSS would be enabled and the User would have full access to the subscription.  But the subscription **Career RockIT (Skillable)** is 
 setup as shared and therefore is used for CSR.
 
 !IMAGE[Azure Subscription Pool](images/image01.jpg)
