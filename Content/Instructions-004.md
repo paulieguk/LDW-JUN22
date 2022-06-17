@@ -25,7 +25,7 @@ During this Lab you will explore applying an Access Control Policy while develop
             "effect": "deny"
         }
     }
-    '''
+    ```
 
 - Save the Lab Profile
 - Launch the Lab Profile
