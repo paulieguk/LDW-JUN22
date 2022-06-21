@@ -13,7 +13,11 @@ One feature to remember about using a template to provisiuon resources is these 
 - We will run with the Developement ACP
 - Save the Lab Profile
 
-```ARM-nocopy
+>[!KNOWLEDGE] <summary>
+Template contents
+</summary>
+<details>
+>```ARM-nocopy
 {
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
    "contentVersion": "1.0.0.0",
