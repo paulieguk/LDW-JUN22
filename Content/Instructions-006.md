@@ -13,6 +13,42 @@ One feature to remember about using a template to provisiuon resources is these 
 - We will run with the Developement ACP
 - Save the Lab Profile
 
+```ARM-nocopy
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+   "contentVersion": "1.0.0.0",
+    "resources": [
+        {
+            "apiVersion": "2016-09-01",
+            "name": "AppServicePlan1",
+            "type": "Microsoft.Web/serverfarms",
+            "location": "[resourceGroup().location]",
+            "sku": {
+                "name": "D1",
+                "capacity": 1
+        },
+            "properties": {
+                "name": "AppServicePlan1"
+            }
+        },
+        {
+            "apiVersion": "2015-08-01",
+            "name": "[concat('WebApp',substring(ResourceGroup().name,14,11))]",
+            "type": "Microsoft.Web/sites",
+            "location": "[resourceGroup().location]",
+            "dependsOn": [
+                "Microsoft.Web/serverfarms/AppServicePlan1"
+            ],
+            "properties": {
+                "name": "[concat('WebApp',substring(ResourceGroup().name,14,11))]",
+                "serverFarmId": "[resourceId('Microsoft.Web/serverfarms/', 'AppServicePlan1')]",
+                "httpsOnly":true
+            }
+        }
+    ]
+}
+```
+
 ###Testing the ARM template
 
 - Launch the Lab Profile @lab.Variable(initials)-AzureWebAppTemplate
