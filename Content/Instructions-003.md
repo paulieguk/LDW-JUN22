@@ -8,7 +8,7 @@ On the **Cloud page** make the following changes.
 In the Resorce Groups section Click **+ Add Resource Group**
 In the new box within the Permissions section click **+ Add Permission++
 
-Ensure **User1-** is listed with the Role **Owner**
+Ensure **User1-** is listed with the Role **Contributor**
 
 >[!KNOWLEDGE] LOD provides three levels of user access:
 >Reader - Can read all objects in a Resource Group but cannot modify
@@ -18,7 +18,7 @@ Ensure **User1-** is listed with the Role **Owner**
 
 - Save the Lab Profile
 
->[!NOTE]The error at the top of the page, because we are trying to use an account with write permissions an Access Control Policy needs to be defined.  
+>[!ALERT]The error at the top of the page, because we are trying to use an account with write permissions an Access Control Policy needs to be defined.  
 
 - Set the Role for User1- to Reader
 - Save the Lab Profile with a note of the changes made.
@@ -35,7 +35,7 @@ Ensure **User1-** is listed with the Role **Owner**
 
 |||
 |---------------|--------------------------|
-| Storage Account Name:       | ++sa-@lab.LabInstanceId++                      |
+| Storage Account Name:       | ++sa-@lab.labInstanceId++                      |
 
 - Press **Review + Create**
 
