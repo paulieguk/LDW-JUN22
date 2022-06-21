@@ -28,9 +28,14 @@ During this Lab you will explore applying an Access Control Policy while develop
 ```
 
 - Save the Lab Profile
+
+>[!KNOWLEDGE] Notice the Lab Profile now needs a security review.  Skillable would not pass a Lab Profile with an allow all but because this Lab Profile has write capability into Azure it needs to be approved before it can go into production.  Security reviews will be discussed more later.
+>!IMAGE[Security Review](images/image06.jpg)
+
+
 - Launch the Lab Profile
-- Navigate into your Resource Group **@lab.CloudResourceGroup(ResourceGroup1).Name**
-- Using the **Access Control** menu review the users permissions and see the user now has Owner permissions
+- Navigate into your Resource Group
+- Using the **Access Control** menu review the users permissions and see the user now has Contributor permissions
 
 >[!TIP] <summary>
   Need help on above
@@ -43,14 +48,14 @@ Click the Resource Group to enter it and on the left hand menu select Access Con
 ### Lets provision a Storage Account
  - From the Resource Group Overview page click **+ Create**
  - On the right of the Create a resource blade click **Try Our Quickstart center**
- - Select **Store, back p, or archive data**
+ - Select **Store, back up, or archive data**
  - **Create** an Azure Storage account
  
  Fill the form in with the following values:
  
  |||
 |---------------|--------------------------|
-| Storage Account Name       | ++sa-@lab.LabInstanceId++                      |
+| Storage Account Name       | ++sa-@lab.labInstanceId++                      |
 
 
 - Press **Review and Create**, Followed by **Create**
@@ -68,7 +73,7 @@ You will need the following values:
 
  |||
 |---------------|--------------------------|
-| Name       | ++wapp@lab.LabInstanceId++                      |
+| Name       | ++wapp@lab.labInstanceId++                      |
 | Runtime | PHP 8.0  |
 
 - Press **Review and Create**, Followed by **Create**
