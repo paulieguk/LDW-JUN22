@@ -10,7 +10,7 @@ Having built a lab that used a simple method to assign a dynamic name, in this l
     - Add a second Datacenter, maybe try a location closer to you if possible [Azure regions](https://azure.microsoft.com/en-gb/global-infrastructure/geographies/#overview)
     - Remove the **LDW - Basic WebApp** Template
     - Add a new Resource Template **LDW - WebApp with Parameter**  Notice this requires a parameter to be suplied
-        - For the Web Server Name use WS-@lab.LabInstanceID
+        - For the Web Server Name use ++WS-@lab.LabInstanceID++
 - We will run with the Developement ACP
 - Save the Lab Profile
 
@@ -71,7 +71,7 @@ Having built a lab that used a simple method to assign a dynamic name, in this l
 ###Testing the ARM template
 
 - Launch the Lab Profile AzureWebAppLab
-- Navigate into your Resource Group **@lab.CloudResourceGroup(ResourceGroup1).Name**.
+- Navigate into your Resource Group.
 - Did this resource group provision in another geography?  This will depend based on your location, and the locations added to Azure.
 
 >[!ALERT] It can still take upto 90 seconds for the resource to become available in Azure so there still might be an error when you view the Resource Group.  Just wait the 0 Seconds and try again.
@@ -80,7 +80,7 @@ Having built a lab that used a simple method to assign a dynamic name, in this l
 - Notice the Website Name based on the information you suppled in the parameter for the template
 - Copy the Web App URL and paste into a local browser to confirm the Website loads the default Webpage.
 - Close the WebSite.
-- The template also had an Output parameter.  Edit the instructions for the running lab and try to find the @lab variable for the output parameter.
+- The template also had an Output parameter.  Edit the instructions for the **AzureWebApp** Lab Profile from the Burger Menu while the lab is running lab and try to find the **@lab** variable for the output parameter.
 
 - [] This completes the activities for Lab 4 please let your instructor know that you have completed Lab 5
 
