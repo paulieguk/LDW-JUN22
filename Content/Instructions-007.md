@@ -16,8 +16,8 @@ Having built a lab that used a simple method to assign a dynamic name, in this l
 
 >[!KNOWLEDGE]<summary>
   Template contents
-  </summary>
-  <details>
+</summary>
+<details>
 >In this ARM Template notice there is a parameters section near the top and at the bottom there is an Output section.
 >
 >```ARMTemplate-nocopy
