@@ -52,7 +52,7 @@ Template contents
     ]
 }
 ```
-</details>
+
 
 ###Testing the ARM template
 
