@@ -18,4 +18,5 @@ During this Workshop a number of URL's will be poresented if you would lilke cop
  
 Press **Next** to continue
 
+PLG
 @lab.LabInstanceId
