@@ -66,7 +66,7 @@ Having built a lab that used a simple method to assign a dynamic name, in this l
 >    }
 >}
 >```
-</details>
+
 
 ###Testing the ARM template
 
