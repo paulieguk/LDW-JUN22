@@ -21,6 +21,3 @@ Press **Next** to continue
 PLG    
 @lab.LabInstance.Id
 
-@lab.User.FirstName
-
-sss
