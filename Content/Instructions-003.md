@@ -35,7 +35,7 @@ Ensure **User1-** is listed with the Role **Contributor**
 
 |||
 |---------------|--------------------------|
-| Storage Account Name:       | ++sa-@lab.labInstanceId++                      |
+| Storage Account Name:       | ++sa-@lab.LabInstanceId++                      |
 
 - Press **Review + Create**
 
