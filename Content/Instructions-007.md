@@ -21,52 +21,52 @@ Having built a lab that used a simple method to assign a dynamic name, in this l
 >In this ARM Template notice there is a parameters section near the top and at the bottom there is an Output section.
 >
 >```ARMTemplate-nocopy
-{
-    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
-   "contentVersion": "1.0.0.0",
-        "parameters": {
-            "webServerName": {
-            "type": "string"
-    }
-  },
-    "resources": [
-        {
-            "apiVersion": "2021-03-01",
-            "name": "AppServicePlan1",
-            "type": "Microsoft.Web/serverfarms",
-            "location": "[resourceGroup().location]",
-            "sku": {
-                "name": "D1",
-                "capacity": 1
-        },
-            "properties": {
-                "name": "AppServicePlan1"
-            }
-        },
-        {
-            "apiVersion": "2021-03-01",
-            "name": "[parameters('webServerName')]",
-            "type": "Microsoft.Web/sites",
-            "location": "[resourceGroup().location]",
-            "dependsOn": [
-                "Microsoft.Web/serverfarms/AppServicePlan1"
-            ],
-            "properties": {
-                "name": "[parameters('webServerName')]",
-                "serverFarmId": "[resourceId('Microsoft.Web/serverfarms/', 'AppServicePlan1')]",
-                "httpsOnly":true
-            }
-        }
-    ],
-    "outputs": {
-        "webServerFQDN": {
-        "type": "String",
-        "value": "[reference(parameters('webServerName')).defaultHostName]"
-        }
-    }
-}
-```
-  </details>
+>{
+>    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+>   "contentVersion": "1.0.0.0",
+>        "parameters": {
+>            "webServerName": {
+>            "type": "string"
+>    }
+>  },
+>    "resources": [
+>        {
+>            "apiVersion": "2021-03-01",
+>            "name": "AppServicePlan1",
+>            "type": "Microsoft.Web/serverfarms",
+>            "location": "[resourceGroup().location]",
+>            "sku": {
+>                "name": "D1",
+>                "capacity": 1
+>        },
+>            "properties": {
+>                "name": "AppServicePlan1"
+>           }
+>        },
+>        {
+>            "apiVersion": "2021-03-01",
+>            "name": "[parameters('webServerName')]",
+>            "type": "Microsoft.Web/sites",
+>            "location": "[resourceGroup().location]",
+>            "dependsOn": [
+>                "Microsoft.Web/serverfarms/AppServicePlan1"
+>            ],
+>            "properties": {
+>                "name": "[parameters('webServerName')]",
+>                "serverFarmId": "[resourceId('Microsoft.Web/serverfarms/', 'AppServicePlan1')]",
+>                "httpsOnly":true
+>            }
+>        }
+>    ],
+>    "outputs": {
+>        "webServerFQDN": {
+>        "type": "String",
+>        "value": "[reference(parameters('webServerName')).defaultHostName]"
+>        }
+>    }
+>}
+>```
+</details>
 
 ###Testing the ARM template
 
@@ -84,4 +84,4 @@ Having built a lab that used a simple method to assign a dynamic name, in this l
 
 - [] This completes the activities for Lab 4 please let your instructor know that you have completed Lab 4
 
-Press **End** to complete this lab.
+Press **End** to complete this set of labs.
