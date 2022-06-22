@@ -55,7 +55,7 @@ Click the Resource Group to enter it and on the left hand menu select Access Con
  
  |||
 |---------------|--------------------------|
-| Storage Account Name       | ++sa-@lab.LabInstanceId++                      |
+| Storage Account Name       | ++sa-@lab.LabInstance.Id++                      |
 
 
 - Press **Review and Create**, Followed by **Create**
@@ -73,7 +73,7 @@ You will need the following values:
 
  |||
 |---------------|--------------------------|
-| Name       | ++wapp@lab.LabInstanceId++                      |
+| Name       | ++wapp@lab.LabInstance.Id++                      |
 | Runtime | PHP 8.0  |
 
 - Press **Review and Create**, Followed by **Create**
