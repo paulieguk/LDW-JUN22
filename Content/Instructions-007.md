@@ -82,6 +82,6 @@ Having built a lab that used a simple method to assign a dynamic name, in this l
 - Close the WebSite.
 - The template also had an Output parameter.  Edit the instructions for the **AzureWebApp** Lab Profile from the Burger Menu while the lab is running lab and try to find the **@lab** variable for the output parameter.
 
-- [] This completes the activities for Lab 4 please let your instructor know that you have completed Lab 5
+- [] This completes the activities for Lab 4 please let your instructor know that you have completed Lab 4
 
-Press **Next** to continue
+Press **End** to complete this lab.
