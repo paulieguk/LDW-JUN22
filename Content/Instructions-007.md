@@ -10,7 +10,7 @@ Having built a lab that used a simple method to assign a dynamic name, in this l
     - Add a second Datacenter, maybe try a location closer to you if possible [Azure regions](https://azure.microsoft.com/en-gb/global-infrastructure/geographies/#overview)
     - Remove the **LDW - Basic WebApp** Template
     - Add a new Resource Template **LDW - WebApp with Parameter**  Notice this requires a parameter to be suplied
-        - For the Web Server Name use ++WS-#64lab.LabInstance.ID++
+        - For the Web Server Name use ++WS-&#64;lab.LabInstance.ID++
 - We will run with the Developement ACP
 - Save the Lab Profile
 
