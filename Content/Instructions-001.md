@@ -13,4 +13,7 @@ Please enter your initials here @lab.TextBox(initials)
 
  -->
  
+During this Workshop a number of URL's will be poresented if you would lilke copies on the Resources tab above there is a link to the PDF Documnet that contains all the links presented.  Please download it if required.
+
+ 
 Press **Next** to continue
