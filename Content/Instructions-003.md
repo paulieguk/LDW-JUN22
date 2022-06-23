@@ -28,7 +28,7 @@ Ensure **User1-** is listed with the Role **Contributor**
 - Click the **Resource Group** to enter it and on the left-hand menu select **Access Control (IAM)**
 - Click view my access and notice the results returned.  Close the Windows/Blade that appeared with your access in.
 - On the left Click **Overview** followed by **+ Create** on the menu.
-- In the Seach Box type ++Storage Account++
+- In the Search Box type ++Storage Account++
 - Click **Create Storage Account** and fill in the form as follows:
 
 !IMAGE[Create Storage Account](images/image02.jpg)
@@ -39,7 +39,7 @@ Ensure **User1-** is listed with the Role **Contributor**
 
 - Press **Review + Create**
 
->[!ALERT]Notice the error.  Click it to view the details and notice it is an access/permisions issue as you only have read access.
+>[!ALERT]Notice the error.  Click it to view the details and notice it is an access/permissions issue as you only have read access.
 
 Cancel the wizard with the **X** top right.
 
