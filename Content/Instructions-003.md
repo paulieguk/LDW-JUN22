@@ -6,7 +6,7 @@ In this exercise you will add some more settings to enable CSR and test that sec
 On the **Cloud page** make the following changes.
 
 In the Resource Groups section Click **+ Add Resource Group**
-In the new box within the Permissions section click **+ Add Permission++
+In the new box within the Permissions section click **+ Add Permission++**
 
 Ensure **User1-** is listed with the Role **Contributor**
 
@@ -18,7 +18,7 @@ Ensure **User1-** is listed with the Role **Contributor**
 
 - Save the Lab Profile
 
->[!ALERT]The error at the top of the page, because we are trying to use an account with write permissions an Access Control Policy needs to be defined.  
+>[!ALERT]You will see an error at the top of the page. This is because we are trying to use an account with write permissions and Lod requires that an Access Control Policy be defined and applied to the Lab Profile.  
 
 - Set the Role for User1- to Reader
 - Save the Lab Profile with a note of the changes made.
@@ -35,7 +35,7 @@ Ensure **User1-** is listed with the Role **Contributor**
 
 |||
 |---------------|--------------------------|
-| Storage Account Name:       | ++sa-@lab.LabInstance.Id++    |
+| Storage Account Name:       | ++sa@lab.LabInstance.Id++    |
 
 - Press **Review + Create**
 
@@ -43,7 +43,7 @@ Ensure **User1-** is listed with the Role **Contributor**
 
 Cancel the wizard with the **X** top right.
 
- - End the Lab and make sure you close both Windows just leaving the orghinal **LDW-Jun22-001: 001 LDW - Azure Cloud** lab running and continue.
+ - End the Lab and make sure you close both Windows just leaving the original **LDW-Jun22-001: 001 LDW - Azure Cloud** lab running and continue.
 
 - [] This completes the activities for Lab 1 please let your instructor know that you have completed Lab 1
 
