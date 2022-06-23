@@ -5,7 +5,7 @@ In this exercise you will add some more settings to enable CSR and test that sec
 
 On the **Cloud page** make the following changes.
 
-In the Resorce Groups section Click **+ Add Resource Group**
+In the Resource Groups section Click **+ Add Resource Group**
 In the new box within the Permissions section click **+ Add Permission++
 
 Ensure **User1-** is listed with the Role **Contributor**
@@ -14,7 +14,7 @@ Ensure **User1-** is listed with the Role **Contributor**
 >Reader - Can read all objects in a Resource Group but cannot modify.    
 >Contributor - Can Read, Create, Modify and Delete objects in a Resource Group.    
 >Owner - Can manage the security and access to the Resource Group.    
->These groups are very similar to the standard groups but you will see them created as LODS-rolename.
+>These groups are very similar to the standard groups, but you will see them created as LODS-rolename.
 
 - Save the Lab Profile
 
@@ -25,11 +25,11 @@ Ensure **User1-** is listed with the Role **Contributor**
 - Launch and enter the Lab, signing in with the credentials provided on the resource tab.
 
 - From the Dashboard Click **Resource Groups**  This will generate an error just click on the arrow to the right and the Resource group should be displayed.  
-- Click the **Resource Group** to enter it and on the left hand menu select **Access Control (IAM)**
+- Click the **Resource Group** to enter it and on the left-hand menu select **Access Control (IAM)**
 - Click view my access and notice the results returned.  Close the Windows/Blade that appeared with your access in.
 - On the left Click **Overview** followed by **+ Create** on the menu.
 - In the Seach Box type ++Storage Account++
-- Click **Create Storage Account** and fill in the for as follows:
+- Click **Create Storage Account** and fill in the form as follows:
 
 !IMAGE[Create Storage Account](images/image02.jpg)
 
