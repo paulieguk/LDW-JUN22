@@ -9,9 +9,9 @@ Having built a lab that used a simple method to assign a dynamic name, in this l
 - On the cloud page make the following changes:
     - Add a second Datacenter, maybe try a location closer to you if possible [Azure regions](https://azure.microsoft.com/en-gb/global-infrastructure/geographies/#overview)
     - Remove the **LDW - Basic WebApp** Template
-    - Add a new Resource Template **LDW - WebApp with Parameter**  Notice this requires a parameter to be suplied
+    - Add a new Resource Template **LDW - WebApp with Parameter**  Notice this requires a parameter to be supplied
         - For the Web Server Name use ++WS-&#64;lab.LabInstance.ID++
-- We will run with the Developement ACP
+- We will run with the Development ACP
 - Save the Lab Profile
 
 >[!KNOWLEDGE]<summary>
@@ -74,12 +74,12 @@ Having built a lab that used a simple method to assign a dynamic name, in this l
 - Navigate into your Resource Group.
 - Did this resource group provision in another geography?  This will depend based on your location, and the locations added to Azure.
 
->[!ALERT] It can still take upto 90 seconds for the resource to become available in Azure so there still might be an error when you view the Resource Group.  Just wait the 0 Seconds and try again.
+>[!ALERT] It can still take up to 90 seconds for the resource to become available in Azure so there still might be an error when you view the Resource Group.  Just wait a couple of minutes and try again.
 
 - Select the Web App (listed as App Service) with a name of WebAppceGroup1
 - Notice the Website Name based on the information you suppled in the parameter for the template
 - Copy the Web App URL and paste into a local browser to confirm the Website loads the default Webpage.
-- Close the WebSite.
+- Close the Web Site.
 - The template also had an Output parameter.  Edit the instructions for the **AzureWebApp** Lab Profile from the Burger Menu while the lab is running lab and try to find the **@lab** variable for the output parameter.
 
 - [] This completes the activities for Lab 4 please let your instructor know that you have completed Lab 4
