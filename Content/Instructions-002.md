@@ -2,7 +2,7 @@
 ## Summary
 You will build an Azure Lab Profile with the abosolute minimumal settings
 
-- From the Skillable Dashboard Create a new lab profile using the **+ Create Custom Environment** option from the Template Gallery.  When creating the new Lab Profile use the following information:
+- From the Skillable Dashboard Create a new lab profile then from the Template Gallery use the **+ Create Custom Environment** option.  When creating the new Lab Profile use the following information:
 
 **Basic Page**
 
