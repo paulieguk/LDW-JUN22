@@ -1,6 +1,6 @@
 ##Summary
 
-During this Lab you will explore applying an Access Control Policy while developing the Azure Cloud lab.  This Policy would not allowed to be used in Production and would fail a security review, but ensures you can develope the Azure content before then updating the policy with an appropiate security Policy.
+During this Lab you will explore applying an Access Control Policy while developing the Azure Cloud lab.  This Policy would not be allowed to be used in Production and would fail a security review.  Using this policy in a development environment ensures you can develop the Azure content before then updating the policy with an appropriate security Policy.
 
 [Skillable Cloud Security Standards Documenation](https://docs.skillable.com/lod/cloud-security/cloud-security-standards.md)
 
@@ -55,12 +55,12 @@ Click the Resource Group to enter it and on the left hand menu select Access Con
  
  |||
 |---------------|--------------------------|
-| Storage Account Name       | ++sa-@lab.LabInstance.Id++                      |
+| Storage Account Name       | ++sa@lab.LabInstance.Id++                      |
 
 
 - Press **Review and Create**, Followed by **Create**
 
->[!Knowledge] This will provbision the resource group within a few seconds.  This is allowed because of the Allow All ACP.  You could provision any other resource you would like.  Wheras this provides a great sandbox and test platform costs can quickly run out of control.
+>[!Knowledge] This will provbision the resource group within a few seconds.  This is allowed because of the Allow All ACP.  You could provision any other resource you would like.  Whereas this provides a great sandbox and test platform costs can quickly run out of control.
 
 - Press **Go to resource** just to confirm the resource exists.
 
@@ -82,6 +82,6 @@ You will need the following values:
 
 !IMAGE[Web App URL](images/image03.jpg)
 
-- Paste the URL into you local browser and the IMAGE[default home page](images/image04.jpg) should appear 
+- Paste the URL into your local browser and the IMAGE[default home page](images/image04.jpg) should appear 
 
 - End the AzureCloudLab Lab.
