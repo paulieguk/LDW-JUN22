@@ -11,9 +11,9 @@ In the new box within the Permissions section click **+ Add Permission++**
 Ensure **User1-** is listed with the Role **Contributor**
 
 >[!KNOWLEDGE] LOD provides three levels of user access:
->Reader - Can read all objects in a Resource Group but cannot modify.    
->Contributor - Can Read, Create, Modify and Delete objects in a Resource Group.    
->Owner - Can manage the security and access to the Resource Group.    
+>**Reader** - Can read all objects in a Resource Group but cannot modify.    
+>**Contributor** - Can Read, Create, Modify and Delete objects in a Resource Group.    
+>**Owner** - Can manage the security and access to the Resource Group.    
 >These groups are very similar to the standard groups, but you will see them created as LODS-rolename.
 
 - Save the Lab Profile
