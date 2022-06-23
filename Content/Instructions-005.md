@@ -6,7 +6,7 @@ As you saw in the previous exercise the unrestricted policy allowed any potentia
 
 - From within LOD ensure the AzureCloudLab, Lab Profile is being displayed.
 - Edit the Lab Profile and use the **SaveAs** function to save the new Lab Profile with a name of ++AzureStorageAccountLab++
-- Make this new Lab Profile a favorite so it is easy to find
+- Make this new Lab Profile a favourite so it is easy to find
 - Edit this new Lab Profile
 - On the **Cloud** page remove the old Access Control Policy and add the policy ++LDW - Only Storage Accounts++
 
@@ -45,11 +45,11 @@ As you saw in the previous exercise the unrestricted policy allowed any potentia
 
  - Press **Review and Create**, Followed by **Create**
 
->[!Knowledge] This will provbision the resource group within a few seconds.  This is allowed because of the Allow Storage Accounts ACP.  Other resource types should be blocked.
+>[!Knowledge] This will provision the resource group within a few seconds.  This is allowed because of the Allow Storage Accounts ACP.  Other resource types should be blocked.
 
 - Press **Go to resource** just to confirm the resource exists.
 
-### Lets attempt to provision another service
+### Let's attempt to provision another service
 - Return to the Resource Group (via the Dashboard if needed)
 - Create a Web App using the Quick Create function used above
 
@@ -61,10 +61,10 @@ You will need the following values:
 | Runtime | PHP 8.0  |
 
 - Press **Review and Create**, Followed by **Create**
-- When the deployment is attempted this will generate a large and unslightl error.  But you should notice that within the first few lines it will state this has been IMAGE[**disallowed by policy**](images/image05.jpg)
+- When the deployment is attempted, this will generate a large and unsightly error.  But you should notice that within the first few lines it will state this has been IMAGE[**disallowed by policy**](images/image05.jpg)
 - Click the **X** at the top right to close the error.
 
-- End the Lab and make sure you close both Windows just leaving the orghinal **LDW-Jun22-001: 001 LDW - Azure Cloud** lab running and continue.
+- End the Lab and make sure you close both Windows just leaving the original **LDW-Jun22-001: 001 LDW - Azure Cloud** lab running and continue.
 
 - [] This completes the activities for Lab 2 please let your instructor know that you have completed Lab 2
 
