@@ -1,8 +1,8 @@
 ##Summary
 
-The previous lab provided an empty cloud subscription to then complete activities and create Azure based resources.  Therefore would be scenarios that you would 
+The previous lab provided an empty cloud subscription to then complete activities and create Azure based resources.  There may be scenarios that you would 
 require some or maybe all services provisioned for the user.  This is where an Azure Resource Manager template comes into play and can be used to provision resources. 
-One feature to remember about using a template to provisiuon resources is these resources are provision with elevated access so the template can provision resources that the user would not have the ability to deploy but they can access them.
+One feature to remember about using a template to provision resources is these resources are provision with elevated access so the template can provision resources that the user would not have the ability to deploy but the user can access them.
 
 ###Building a Lab Profile with a simple static template
 
@@ -10,7 +10,7 @@ One feature to remember about using a template to provisiuon resources is these 
 - Edit the Lab Profile and use the **SaveAs** function to save the new Lab Profile with a name of AzureWebAppLab
 - Edit this new Lab Profile
 - On the Cloud page add the Resource Template **LDW - Basic WebAPP** into the resources template section.
-- We will run with the Developement ACP
+- We will run with the Development ACP
 - Save the Lab Profile
 
 >[!KNOWLEDGE] <summary>
@@ -60,7 +60,7 @@ Template contents
 - You will notice this takes much longer to provision
 - Navigate into your Resource Group.
 
->[!ALERT] It can still take upto 90 seconds for the resource to become available in Azure so there still might be an error when you view the Resource Group.  Just wait the 0 Seconds and try again.
+>[!ALERT] It can still take up to 90 seconds for the resource to become available in Azure so there still might be an error when you view the Resource Group.  Just wait a couple of minutes and try again.
 
 - Select the Web App (listed as App Service) with a name of WebAppceGroup1
 - Copy the Web App URL and paste into a local browser to confirm the Website loads the default Webpage.
