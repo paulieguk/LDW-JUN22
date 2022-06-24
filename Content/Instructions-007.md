@@ -82,7 +82,8 @@ Having built a lab that used a simple method to assign a dynamic name, in this l
 - Close the Web Site.
 - The template also had an Output parameter.  Edit the instructions for the **Azure Web App Lab** Lab Profile from the Burger Menu while the lab is running lab and try to find the **@lab** variable for the output parameter.
     
->[!Hint] <details>
+    >[!Hint] <summary>Hint</summary>
+    <details>
     Look at the @lab menu in the instructions editor.  Do any of the enteries mention the returned value of an output parameter
     </details>
 
