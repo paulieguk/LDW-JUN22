@@ -41,7 +41,7 @@ As you saw in the previous exercise the unrestricted policy allowed any potentia
  
  |||
 |---------------|--------------------------|
-| Storage Account Name       | ++sa-@lab.LabInstance.Id++                      |
+| Storage Account Name       | ++sa@lab.LabInstance.Id++                      |
 
  - Press **Review and Create**, Followed by **Create**
 
