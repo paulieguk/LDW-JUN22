@@ -21,7 +21,7 @@ Ensure **User1-** is listed with the Role **Contributor**
 >[!ALERT]You will see an error at the top of the page. This is because we are trying to use an account with write permissions and Lod requires that an Access Control Policy be defined and applied to the Lab Profile.  
 
 - Set the Role for User1- to Reader
-- Save the Lab Profile with a note of the changes made.
+- Save the Lab Profile.
 - Launch and enter the Lab, signing in with the credentials provided on the resource tab.
 
 - From the Dashboard Click **Resource Groups**  This will generate an error just click on the arrow to the right and the Resource group should be displayed.  
