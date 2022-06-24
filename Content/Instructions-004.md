@@ -4,7 +4,7 @@ During this Lab you will explore applying an Access Control Policy while develop
 
 [Skillable Cloud Security Standards Documenation](https://docs.skillable.com/lod/cloud-security/cloud-security-standards.md)
 
-- From within LOD ensure the AzureCloudLab, Lab Profile is being displayed.
+- From within LOD ensure the **AzureCloudLab** Lab Profile is being displayed.
 - Edit the Lab Profile.
 - On the **Cloud** page change the permission for User1- from Reader to Contributor.
 
