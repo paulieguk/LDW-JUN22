@@ -84,4 +84,4 @@ You will need the following values:
 
 - Paste the URL into your local browser and the IMAGE[default home page](images/image04.jpg) should appear 
 
-- End the AzureCloudLab Lab.
+- End the **AzureCloudLab** Lab.
