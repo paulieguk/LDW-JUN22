@@ -7,7 +7,7 @@ One feature to remember about using a template to provision resources is these r
 ###Building a Lab Profile with a simple static template
 
 - From within LOD ensure the AzureCloudLab, Lab Profile is being displayed.
-- Edit the Lab Profile and use the **SaveAs** function to save the new Lab Profile with a name of AzureWebAppLab
+- Edit the Lab Profile and use the **SaveAs** function to save the new Lab Profile with a name of ++Azure Web App Lab++
 - Edit this new Lab Profile
 - On the Cloud page add the Resource Template **LDW - Basic WebAPP** into the resources template section.
 - We will run with the Development ACP
@@ -56,14 +56,15 @@ Template contents
 
 ###Testing the ARM template
 
-- Launch the Lab Profile @lab.Variable(initials)-AzureWebAppTemplate
+- Launch the Lab Profile **Azure Web App Lab**
 - You will notice this takes much longer to provision
 - Navigate into your Resource Group.
 
 >[!ALERT] It can still take up to 90 seconds for the resource to become available in Azure so there still might be an error when you view the Resource Group.  Just wait a couple of minutes and try again.
 
-- Select the Web App (listed as App Service) with a name of WebAppceGroup1
-- Copy the Web App URL and paste into a local browser to confirm the Website loads the default Webpage.
+- Select the Web App (listed as App Service) with a name of **WebApplod@lab.LabInstance.Id**
+- On the **WebApplod@lab.LabInstance.Id** Overview page copy the Web App URL (near the top right) and paste it into a local browser to confirm the Website loads the default Webpage.
+- End the **Azure Web App Lab**
 
 - [] This completes the activities for Lab 3 please let your instructor know that you have completed Lab 3
 
