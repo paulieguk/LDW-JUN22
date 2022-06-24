@@ -41,8 +41,8 @@ During this Lab you will explore applying an Access Control Policy while develop
   Need help on above
   </summary>
   <details>
-  From the Dashboard Click Resource Groups This will list the Resource you have access too.  If it generates an error just click on the arrow to the right and the Resource group should be displayed.
-Click the Resource Group to enter it and on the left hand menu select Access Control (IAM) Click view my access and notice the results returned. Close the Windows/Blade that appeared with your access in.
+  From the Dashboard Click Resource Groups This will list the Resource you have access too.  If it generates an error just click on the arrow to the right and the Resource group should be displayed.    
+Click the Resource Group to enter it and on the left hand menu select Access Control (IAM) Click view my access and notice the results returned. Close the Windows/Blade that appeared with your access in.    
 </details>
 
 ### Lets provision a Storage Account
