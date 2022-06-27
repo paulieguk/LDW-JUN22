@@ -60,7 +60,7 @@ Click the Resource Group to enter it and on the left hand menu select Access Con
 
 - Press **Review and Create**, Followed by **Create**
 
->[!Knowledge] This will provbision the resource group within a few seconds.  This is allowed because of the Allow All ACP.  You could provision any other resource you would like.  Whereas this provides a great sandbox and test platform costs can quickly run out of control.
+>[!Knowledge] This will provision the resource group within a few seconds.  This is allowed because of the Allow All ACP.  You could provision any other resource you would like.  Whereas this provides a great sandbox and test platform costs can quickly run out of control.
 
 - Press **Go to resource** just to confirm the resource exists.
 
