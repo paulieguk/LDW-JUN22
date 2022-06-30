@@ -20,7 +20,7 @@ You will build an Azure Lab Profile with the absolute minimal settings
 |---------------|--------------------------|
 | Cloud Platform:       | Azure                     |
 | Subscription Pool:    | Career RockIT (Skillable) |
-| Datacenter Availability | US East 2 |
+| Datacenter Availability | East US 2 |
 
 >[!Knowledge] This represents the minimum data that can be entered into an Azure Cloud Lab Profile.  Notice there was already a user selected with a prefix of **User1-**
 
